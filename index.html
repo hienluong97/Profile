@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/responsive.css">
+    <link rel="stylesheet" href="./assets/themify-icons-font/themify-icons/themify-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+    <script src="js.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <!--Navbar PC-->
+        <div id="header" class='flex-2'>
+            <div class="logo">Sitimulus</div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#experience">experiences</a></li>
+                    <li><a href="#testimonail">testimonail</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--Navbar tablet-->
+        <div id="small-header" class='flex-2'>
+            <div class="logo">Sitimulus</div>
+            <div class="menu">
+                <i class="ti-menu" onclick="showMenu()"></i>
+                <ul id='s-menu' class="menu-list " onclick="showMenu()">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#experience">experiences</a></li>
+                    <li><a href="#testimonail">testimonail</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--Introduction-->
+        <div id='intro' class="intro flex-2">
+            <div class="intro-img"></div>
+            <div class="intro-content ">
+                <h6 class="padding-bt14 text-gray">WELCOME TO MY WEBSITE</h6>
+                <h1 class="title padding-bt14">
+                    Hello, I am <strong>Sitimulus</strong> currently based in New York city.
+                </h1>
+                <p class="para text-gray">
+                    Donec auctor arcu at efficitur lacinia.
+                    Praesent bibendum efficitur ipsum, et mattis tellus interdum in.
+                    Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna.
+                    Vestibulum id accumsan quam.
+                </p>
+                <button class="btn"> GET STARTED </button>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="about-content padding50-40">
+                <h1 class="title padding-bt14">Donec auctor</h1>
+                <p class="sub-title para text-yellow">Sed vulputate vitae diam quis bibendum </p>
+                <p class="para padding-bt14 text-gray">Phasellus vulputate tellus nec tortor varius elementum.
+                    Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.
+                    Mauris convallis eros massa.
+                <p class="para">
+                    Quisque viverra iaculis aliquam. Etiam volutpat, justo non aliquam bibendum,
+                    sem nibh mollis erat, quis porta odio odio at velit.
+                </p>
+
+            </div>
+
+            <div class="skill-img"></div>
+            <div class="skill-level padding50-40">
+                <h1 class="title text-white padding-bt14">My Skills</h1>
+                <p class="para text-white padding-bt14">Photoshop . HTML CSS JS . Web Design</p>
+                <div class="level">
+                    <div class="subject fe">
+                        <p>
+                            <span class="subject-name">Frontend Design</span>
+                            <span class="subject-level-percent">90%</span>
+                        </p>
+                        <div class="full-progress">
+                            <div class="percent-progress"></div>
+                        </div>
+                    </div>
+
+                    <div class="subject be">
+                        <p>
+                            <span class="subject-name">Backend processing</span>
+                            <span class="subject-level-percent">70%</span>
+                        </p>
+                        <div class="full-progress">
+                            <div class="percent-progress"></div>
+                        </div>
+                    </div>
+                    <div class="subject htmlcss">
+                        <p>
+                            <span class="subject-name">HTML5 & CSS3</span>
+                            <span class="subject-level-percent">80%</span>
+                        </p>
+                        <div class="full-progress">
+                            <div class="percent-progress"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="services">
+            <div class="service padding50-40 service-1">
+                <i class='ti-desktop text-white icon padding-bt22'></i>
+                <h2 class="title-s text-white padding-bt14">Interface Design</h2>
+                <p class="para text-white">Phasellus vulputate tellus nec
+                    tortor varius elementum.
+                    Curabitur at pulvinar ante.
+                </p>
+            </div>
+
+            <div class="service padding50-40 service-2 ">
+                <i class="ti-location-arrow text-white icon"></i>
+                <h2 class="title-s text-white padding-bt14">Media Strategy</h2>
+                <p class="para text-white">Phasellus vulputate tellus nec
+                    tortor varius elementum.
+                    Curabitur at pulvinar ante.
+                </p>
+            </div>
+
+            <div class="service padding50-40 service-3">
+                <i class="ti-mobile text-white icon"></i>
+                <h2 class="title-s text-white padding-bt14">Mobile App</h2>
+                <p class="para text-white">Phasellus vulputate tellus nec
+                    tortor varius elementum.
+                    Curabitur at pulvinar ante.
+                </p>
+            </div>
+
+            <div class="service padding50-40 service-4">
+                <i class="ti-html5 icon"></i>
+                <h2 class="title-s padding-bt14">Coding</h2>
+                <p class="para text-gray">Phasellus vulputate tellus nec
+                    tortor varius elementum.
+                    Curabitur at pulvinar ante.
+                </p>
+            </div>
+
+        </div>
+
+        <div id="experience" class=" flex-2">
+            <div class="exp-img"></div>
+            <div class="exp-content padding50-40">
+                <h1 class="title text-white padding-bt14">My Experiences</h1>
+                <p class="para text-white">Previous companies and my tasks</p>
+                <div class="exp-list flex-2">
+                    <div class="list flex-2 margin-bt16">
+                        <div class="list-icon">
+                            <i class="ti-palette icon text-white"></i>
+                        </div>
+                        <div class="content">
+                            <h2 class="title-s text-white padding-bt10">
+                                Graphic Designer <span class="time"> 2014 Jul - 2015 Sep</span>
+                            </h2>
+                            <p class="para text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+
+                    </div>
+                    <div class="list flex-2">
+                        <div class="list-icon">
+                            <i class=" ti-blackboard icon text-white"></i>
+                        </div>
+                        <div class="content">
+                            <h2 class="title-s text-white padding-bt10">
+                                Web Designer <span class="time"> 2014 Jul - 2015 Sep</span>
+                            </h2>
+                            <p class="para text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="education" class="flex-2">
+            <div class="edu-content padding50-40">
+                <h1 class="title text-white padding-bt14">My Education</h1>
+                <p class="para text-white">In cursus orci non ipsum gravida dignissim</p>
+                <div class="edu-list flex-2">
+                    <div class="list flex-2 margin-bt16">
+                        <div class="list-icon">
+                            <i class="ti-palette icon text-white"></i>
+                        </div>
+                        <div class="content">
+                            <h2 class="title-s text-white padding-bt10">
+                                Master in Design <span class="time"> 2014 Jul - 2015 Sep</span>
+                            </h2>
+                            <p class="para text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+
+                    </div>
+                    <div class="list flex-2">
+                        <div class="list-icon">
+                            <i class=" ti-blackboard icon text-white"></i>
+                        </div>
+                        <div class="content">
+                            <h2 class="title-s text-white padding-bt10">
+                                Bachelor of Arts <span class="time"> 2014 Jul - 2015 Sep</span>
+                            </h2>
+                            <p class="para text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="edu-img"></div>
+        </div>
+
+        <div id="testimonail" class="testimonail">
+            <div class="bgr-img">
+                <div class="bgr-overlay"> </div>
+                <div class="testimonail-body">
+                    <i class="ti-star text-white"></i>
+                    <h2 class="title text-white padding-bt22">Proin lobortis eu diam et facilisis.
+                        Fusce nisi nibh, molestie in vestibulum quis, auctor et orci.
+                    </h2>
+                    <p class="para text-gray">Curabitur at pulvinar ante.
+                        Duis dui urna, faucibus eget felis eu, iaculis congue sem.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact">
+
+            <div class="contact-form padding50-40">
+                <h1 class="title text-white padding-bt14">Say hello..</h1>
+                <p class="para text-white padding-bt22">Integer ut consectetur est.
+                    In cursus orci non ipsum gravida dignissim.</p>
+                <form class="form">
+                    <input type="text" placeholder="Your name" required>
+                    <input type="email" name="" id="" placeholder="Your email" required>
+                    <textarea type="text" name="" id="" placeholder="Write your messenger" required></textarea>
+                    <button class="form-btn"> SEND </button>
+                </form>
+            </div>
+
+            <div class="contact-address">
+                <div class="contact-img"></div>
+                <div class="address-detail padding50-40 ">
+                    <h2 class="title-s text-white padding-bt14">Visit my office</h2>
+                    <p class="para text-gray padding-bt22">456 New Street 22000, New York City, USA</p>
+
+                    <h2 class="title-s text-white padding-bt14">Contact.</h2>
+                    <p class="para text-gray"> <i class=" ti-mobile ct-icon"> </i>01-0110-0220</p>
+                    <p class="para"> <i class=" ti-email ct-icon text-gray"> </i> <a class='text-yellow'
+                            href="#">hello@company.co</a></p>
+                    <p class="para"> <i class=" ti-location-pin ct-icon text-gray"> </i> <a class='text-yellow'
+                            href="#">company.co</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <p class="para text-gray">Copyright © 2016 Your Company | Design: <a href="#" class="text-yellow">
+                    templatemo</a></p>
+            <div class="sns text-gray">
+                <i class="ti-facebook sns-icon"></i>
+                <i class="ti-twitter-alt sns-icon"></i>
+                <i class="ti-instagram sns-icon"></i>
+                <i class="ti-linkedin sns-icon"></i>
+                <i class="ti-facebook sns-icon"></i>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

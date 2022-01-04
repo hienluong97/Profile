@@ -1,0 +1,98 @@
+/*PC*/
+
+@media (min-width: 769px) {
+    #small-header {       
+        display: none;
+    }
+}
+
+
+/*ipad- tablet- mobile*/
+
+@media (max-width: 768px){
+    #header {       
+        display: none;        
+    }
+    #intro {
+        flex-wrap: wrap;   
+    }
+    #intro .intro-img {
+        width: 100%;  
+        height: 100vh;     
+    }
+    #intro .intro-content {
+        width: 100%;
+    }
+    #about {
+        flex-wrap: wrap;   
+    }
+
+    #about .about-content {
+        width: 100%;
+    }
+    #about .skill-img {
+        width: 100%;
+        min-height: 60vh;  
+    }
+    #about .skill-level {
+        width: 100%;
+    }
+    
+    #services {
+        flex-wrap: wrap;   
+    }
+
+    #services .service {
+        width: 100%;
+    }
+  
+    #experience,
+    #education {
+        flex-wrap: wrap;   
+    }
+   
+    #experience .exp-img, #experience .exp-content,
+    #education .edu-img , #education .edu-content {
+        width: 100%;
+        min-height: 60vh;  
+    }
+
+    #contact{
+        display: flex;
+        flex-wrap: wrap;         
+    }
+
+    #contact .contact-form{
+        width: 100%;        
+    }
+    
+    #contact .contact-address{          
+        position: static;
+        width: 100%;       
+        display: flex;        
+        flex-wrap: wrap;        
+    }
+
+    #contact .contact-img {       
+        width: 100%; 
+        min-height: 75vh;        
+    }
+
+    #contact .address-detail {
+        width: 100%;       
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+}
